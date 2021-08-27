@@ -1,4 +1,4 @@
-#Live(https://rishabhpanchal.me)
+#LIVE(https://rishabhpanchal.me)
 
 
 # Getting Started with Create React App
