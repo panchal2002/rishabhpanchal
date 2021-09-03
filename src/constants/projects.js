@@ -1,5 +1,5 @@
 import viseffect from '../assets/viseffect.png'
-// import estore from '../assets/estore.png'
+import estore from '../assets/estore.png'
 import moviesport from '../assets/moviesport.png'
 export const PROJECTS = [
   {
@@ -30,12 +30,12 @@ export const PROJECTS = [
     description:
       'A eCommerce web app built with React JS, Redux & Firebase that includes Cart Functionality, User Authentication, Previous Orders, Searching, Pagination, Payment Gatway Functionality etc.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: `${estore}`,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '#',
+      site: 'https://estoreglobal.netlify.app/',
       repo: 'https://github.com/panchal2002/estore',
     },
     technologies: [
