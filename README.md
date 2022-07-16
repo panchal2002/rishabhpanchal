@@ -1,6 +1,6 @@
 ## Deployment Instructions :-
 
-— This project has two main parts :- `Client` & `Server`
+— This project has two main parts :- `Client` & `Server`<br/>
 — Two hosting provider's services are used to host both `Client` & `Server`
 
     1. `Netlify`
