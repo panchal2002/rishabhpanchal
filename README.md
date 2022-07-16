@@ -43,7 +43,7 @@ $ npm install netlify-cli -g
 #### Step 2: Choose a new project
 
 While using Netlify CLI, First create production repository by running command `npm run build`<br/>
-Now run command `netlify deploy` to start deployment procedure then follow command line prompts and choose yes for new project then choose any name you want to give to your project and select ./build as your deploy folder and voila you have a production React app!
+Now run command `netlify deploy` to start deployment procedure then follow command line prompts and choose yes for new project then choose any name you want to give to your project and select `./build` as your deploy folder and voila you have a production React app!
 
 ```
 $ npm run build
