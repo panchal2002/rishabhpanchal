@@ -1,4 +1,10 @@
+## Deployment Instructions :-
 
+— This project has two main parts :- `Client` & `Server`
+— Two hosting provider's services are used to host both `Client` & `Server`
+
+    1. `Netlify`
+    2. `Heroku`
 
 # LIVE(https://rishabhpanchal.me)
 
