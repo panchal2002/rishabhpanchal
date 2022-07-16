@@ -1,10 +1,10 @@
 ## Deployment Instructions :-
 
-— This project has two main parts :- `Client` & `Server`<br/>
+— This project has two main parts :- `Client` & `Server` <br/>
 — Two hosting provider's services are used to host both `Client` & `Server`
 
-    1. `Netlify`
-    2. `Heroku`
+    1. Netlify
+    2. Heroku
 
 ### `Client` Deployment Instructions :-
 
@@ -12,8 +12,28 @@
 
 ```
 npm install netlify-cli -g
-netlify deploy
 ```
+
+#### Step 2: Choose a new project
+
+While using Netlify CLI, First create production repository by running command `npm run build`<br/>
+Now run command `netlify deploy` to start deployment procedure then follow command line prompts and choose yes for new project then choose any name you want to give to your project and select ./build as your deploy folder and voila you have a production React app!
+
+```
+$ npm run build
+$ netfliy deploy
+This folder isn't linked to a site yet
+? What would you like to do?
+    => Link this directory to a existing site
+    +  Create and configure a new site (selected)
+Choose a site name or leave blank for a random name. You can update later.
+? Site name (Optional) hackerearthassessment
+(Login to your netlify account/ Create if you are not registered)
+? Deploy path ./build
+
+You app is ready to be used!
+```
+
 
 
 
