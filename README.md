@@ -6,6 +6,19 @@
     1. `Netlify`
     2. `Heroku`
 
+### `Client` Deployment Instructions :-
+
+#### Step 1 Install Netlify
+
+```
+npm install netlify-cli -g
+netlify deploy
+```
+
+
+
+
+
 # LIVE(https://rishabhpanchal.me)
 
 
