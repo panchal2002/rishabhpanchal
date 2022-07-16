@@ -1,3 +1,31 @@
+# IMAGE LIBRARY (CRUD App)
+
+### Deployed Link :- https://hackerearthassessment.netlify.app
+
+## All the required parameters :-
+
+### Minimum requirement :-
+
+`Done` Database Model Parameters :[ImgName, ImgURL, ImgDetails]
+`Done` A GET request to the base URL should list All Gallery Images as Cards(3 cards per row)
+`Done` A GET request to /show/:id should list details of images. This will be on click of the above Card
+`Done` A POST request to / should submit the above form and add it to the database.
+`Done` A GET request to /:id/edit should show a form which has a prefilled Image Name & it must be possible to change Image URL & Image Details.
+`Done` A PUT request to /:id/edit should submit the above form and change the appropriate details in the database.
+`Done` A DELETE request to /delete/:id should delete that particular image from the database.
+`Done` A Delete & Edit button should be there in /show/:id
+
+### [Plus Point]
+
+`Done` Implement a Pagination feature in the base URL. i.e The base URL should only list the first 9 entries on the 1st page. Next 9 entries on the 2nd page & so on.
+`Done` Implement a Search feature in the base URL. i.e It must be possible to search an image by its name across all pages.
+
+### [Advanced ]
+
+`Done` Host the FullStack App on Heroku/AWS/Azure or any deployment service you like.
+
+
+
 # LIVE(https://rishabhpanchal.me)
 
 
